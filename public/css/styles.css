@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+body img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  top: 0;
+  z-index: 9;
+}
+
+.loading {
+  width: auto;
+  margin: 0 auto;
+}
+
+.card {
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.3s;
+}
+.card img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.card:hover {
+  transition: all 0.3s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.card:hover img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}/*# sourceMappingURL=styles.css.map */
